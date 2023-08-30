@@ -17,14 +17,14 @@ a:hover {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 45px;
+  font-size: 30px;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 35px;
+  font-size: 20px;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: transparent;
   height: 8vh;
@@ -61,13 +61,13 @@ main {
 
 .sub-tt{
   margin-top: 10%;
-  font-size: 80px;
+  font-size: 50px;
   font-family:Arial, Helvetica, sans-serif ;
 
 }
 
 .text-main img{
-  width: 350px;
+  width: 250px;
 }
 
 .nav-list {
@@ -139,7 +139,7 @@ main {
   .text-main img{
     position: relative;
     width: 120px;
-  margin-bottom: -8%;
+  margin-bottom: -6%;
   }
 
   .sub{
