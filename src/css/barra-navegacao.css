@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -100,8 +101,8 @@ main {
   background-image: url(../img/quemsomos.webp);
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  width: 50%;
+  height: auto;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -123,7 +124,7 @@ main {
 }
 
 .svg{
-  margin-top: -25%;
+  margin-top: 0;
   width: 150px;
 }
 
@@ -142,14 +143,34 @@ main {
 
 .margin-grey{
   background-color: rgb(21, 72, 72);
-  height: 50%;
+  height: 300px;
   width: 100%;
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.conteiner img{
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.lado-lado{
+  display: flex;
+}
+
+.grid-container{
+  display: flex;
+}
+
+.grid-color{
+  display: flex;
+}
+
+.grid-c img{
+  width: 100%;
+}
 
 @media (max-width: 999px){
   body {
@@ -224,11 +245,11 @@ main {
   .titulo{
     font-size: 42px;
     text-align: center;
-    margin-top: -15%;
+    margin-top: 0;
   }
 
   .svg{
-    margin-top: -40%;
+    margin-top: 0;
     width: 130px;
   }
   
@@ -238,6 +259,24 @@ main {
 
   .margin-grey{
     height: 15%;
+  }
+
+  .conteiner img{
+    width: 100%;
+    display: none;
+  }
+
+  .grid-container{
+    display: none;
+  }
+  .grid-color{
+    flex-direction: column;
+  }
+  .grid-c{
+    height: 200px;
+  }
+  .grid-c img{
+    height: 100%;
   }
 }
 
