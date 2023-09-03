@@ -1,0 +1,168 @@
+@media (min-width:48em){
+
+    .colfooter  { width:30%; margin-right:5%; margin-bottom:0; }
+    .colfooter:nth-of-type(3n+0){ margin-right:0; border-right:0;}
+    
+    .footer-arrow svg { height:50px; }
+    
+    }
+    
+    /*960PX BREAKPOINT*/
+    @media (min-width:60em){
+    
+    .footer-arrow svg { height:70px; }
+    
+    }
+    
+    /*1280PX BREAKPOINT*/
+    @media (min-width:80em){
+    
+    .footer-arrow svg { height:90px; }
+    
+    }
+    
+    
+    
+    
+    @media (max-width: 999px){
+      body {
+        overflow-x: hidden;
+      }
+      .row{
+        flex-direction: column;
+      }
+      .nav-list {
+        position: absolute;
+        top: 8vh;
+        width: 35vw;
+        height: 92vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        border: none;
+        font-size: 18px;
+      }
+      .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+        border: none;
+      }
+      .mobile-menu {
+        display: block;
+      }
+    
+      .text-main{
+        position: absolute;
+        top: 67%;
+        left: 20%;
+        right: 20%;
+        text-align: center;
+        font-size: 20px;
+        display: block;
+     
+      }
+
+      .logo-senac img{
+        display: none;
+      }
+      
+
+      .grid-item img{
+        display: none;
+      }
+    
+      .logo{
+        font-size: 20px;
+      }
+
+    
+    
+    
+      main{
+        height: 100vh;
+      }
+    
+      .sub-tt{
+        margin-top: 0;
+        font-size: 20px;
+      }
+    
+      .lado1{
+        width: 100%;
+      }
+    
+      .alinhamento-tt{
+        width: 97%;
+      }
+      
+      .titulo{
+        font-size: 42px;
+        text-align: center;
+        margin-top: 0;
+      }
+    
+      .svg{
+        margin-top: 0;
+        width: 130px;
+      }
+      
+      .rvg2{
+        width: 50px;
+      }
+    
+      .margin-grey{
+        height: 15%;
+      }
+    
+      .conteiner-img img{
+        display: none;
+      }
+
+      .conteiner-img{
+        display: none;
+      }
+    
+      .grid-container{
+        display: none;
+      }
+      .grid-color{
+        flex-direction: column;
+      }
+      .grid-c{
+        height: 200px;
+      }
+      .grid-c img{
+        height: 100%;
+      }
+    
+    }
+    
+    .nav-list.active {
+      transform: translateX();
+      backdrop-filter:  blur(5px);
+    }
+    
+    @keyframes navLinkFade {
+      from {
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    .mobile-menu.active .line1 {
+      transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    
+    .mobile-menu.active .line2 {
+      opacity: 0;
+    }
+    
+    .mobile-menu.active .line3 {
+      transform: rotate(45deg) translate(-5px, -7px);
+    }

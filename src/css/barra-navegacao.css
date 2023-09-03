@@ -6,95 +6,20 @@
 
 }
 
-
-a {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
+body {
+	background:
+		url(../imagens/ruido.png),
+		linear-gradient(50deg, #ffffff);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
-a:hover {
-  opacity: 0.7;
-}
-
-.logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 30px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 20px;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: transparent;
-  height: 8vh;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
-main {
-  background: url("https://static.wixstatic.com/media/aa095b_52a5d851cdcd422bbf4c61023d2d6ed4~mv2.png/v1/fill/w_1040,h_763,al_c,q_90,enc_auto/aa095b_52a5d851cdcd422bbf4c61023d2d6ed4~mv2.png") no-repeat center center;
-  background-size: cover;
-  height: 130vh;
- 
-}
-
-.text-main{
-  position: absolute;
-  top: 98%;
-  left: 25%;
-  right: 25%;
-  color: white;
-  font-style: italic;
-  font-family: sans-serif;
-  font-weight: bold;
-  display: flex;
-}
-
-.sub{
-  font-size: 50px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
 
 .sub-tt{
   margin-top: 10%;
-  font-size: 50px;
+  font-size: 40px;
   font-family:Arial, Helvetica, sans-serif ;
 
-}
-
-.text-main img{
-  width: 250px;
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-}
-
-.nav-list li {
-  letter-spacing: 3px;
-  margin-left: 32px;
-}
-
-.mobile-menu {
-  display: none;
-  cursor: pointer;
-}
-
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 8px;
-  transition: 0.3s;
 }
 
 .lado1{
@@ -102,7 +27,7 @@ main {
   background-size: cover;
   background-position: center;
   height: auto;
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -124,7 +49,7 @@ main {
 }
 
 .svg{
-  margin-top: 0;
+  margin-top:  -5%;
   width: 150px;
 }
 
@@ -133,7 +58,7 @@ main {
   font-size: 30px;
   letter-spacing: normal;
   line-height: 1.5;
-  color: rgb(96, 95, 95)
+  color: rgb(46, 44, 44)
 
 }
 
@@ -150,7 +75,7 @@ main {
   justify-content: center;
 }
 
-.conteiner img{
+.conteiner-img img{
   width: 100%;
   display: block;
   height: 100%;
@@ -164,146 +89,108 @@ main {
   display: flex;
 }
 
+.grid-item{
+  height: auto;
+}
+
+.grid-item img{
+  height: 300px;
+  width: 100%;
+}
+
 .grid-color{
   display: flex;
 }
 
 .grid-c img{
   width: 100%;
+  margin-top: -4px;
 }
 
-@media (max-width: 999px){
-  body {
-    overflow-x: hidden;
-  }
-  .nav-list {
-    position: absolute;
-    top: 8vh;
-    width: 35vw;
-    height: 92vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-    border: none;
-    font-size: 18px;
-  }
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
-    border: none;
-  }
-  .mobile-menu {
-    display: block;
-  }
 
-  .text-main{
-    position: absolute;
-    top: 67%;
-    left: 20%;
-    right: 20%;
-    text-align: center;
-    font-size: 20px;
-    display: block;
- 
-  }
-
-  .logo{
-    font-size: 20px;
-  }
-
-  .text-main img{
-    position: relative;
-    width: 120px;
-  margin-bottom: -6%;
-  }
-
-  .sub{
-    font-size: 20px;
-  }
-
-
-
-  main{
-    height: 100vh;
-  }
-
-  .sub-tt{
-    margin-top: 0;
-    font-size: 20px;
-  }
-
-  .lado1{
-    width: 100%;
-  }
-
-  .alinhamento-tt{
-    width: 97%;
-  }
-  
-  .titulo{
-    font-size: 42px;
-    text-align: center;
-    margin-top: 0;
-  }
-
-  .svg{
-    margin-top: 0;
-    width: 130px;
-  }
-  
-  .rvg2{
-    width: 50px;
-  }
-
-  .margin-grey{
-    height: 15%;
-  }
-
-  .conteiner img{
-    width: 100%;
-    display: none;
-  }
-
-  .grid-container{
-    display: none;
-  }
-  .grid-color{
-    flex-direction: column;
-  }
-  .grid-c{
-    height: 200px;
-  }
-  .grid-c img{
-    height: 100%;
-  }
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
 }
 
-.nav-list.active {
-  transform: translateX();
-  backdrop-filter:  blur(5px);
+.col-md-6 {
+	position: relative;
+  width: auto ;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.container {
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+	display: flex;
 }
 
-.mobile-menu.active .line2 {
-  opacity: 0;
+
+#servicos {
+	background: white;
 }
 
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
+#servicos h3 {
+	color: #025825;
+  font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	margin-top: 10px;
+}
+
+#servicos h2 {
+	color: #025825;
+  font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	margin-top: 10px;
+}
+
+p {
+	text-align: justify;
+	font-size: 1.25em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ... Outros estilos ... */
+
+.grid-c {
+  text-align: center;
+  margin: 0px;
+  position: relative; /* Adicione isso para posicionar o texto sobre a imagem */
+}
+
+.imagem-container {
+  position: relative;
+}
+
+.imagem-container img {
+  width: 100%;
+  height: auto;
+}
+
+.texto-img {
+  position: absolute; /* Posicione o texto sobre a imagem */
+  top: 50%; /* Centralize verticalmente */
+  left: 50%; /* Centralize horizontalmente */
+  transform: translate(-50%, -50%); /* Centralize completamente */
+  background-color: rgba(255, 255, 255, 0.7); /* Fundo do texto (opcional) */
+  padding: 10px; /* Espaçamento interno do texto (opcional) */
+  border-radius: 5px; /* Borda arredondada (opcional) */
+  width: 80%; /* Defina a largura do contêiner de texto como desejado */
+  font-family: 'Lato', sans-serif; /* Use a fonte desejada */
+  font-size: 16px; /* Defina o tamanho da fonte desejado */
+  color: #000; /* Cor do texto */
 }
