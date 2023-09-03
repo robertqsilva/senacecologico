@@ -1,0 +1,22 @@
+@media (min-width:48em){
+
+    .colfooter  { width:30%; margin-right:5%; margin-bottom:0; }
+    .colfooter:nth-of-type(3n+0){ margin-right:0; border-right:0;}
+    
+    .footer-arrow svg { height:50px; }
+    
+    }
+    
+    /*960PX BREAKPOINT*/
+    @media (min-width:60em){
+    
+    .footer-arrow svg { height:70px; }
+    
+    }
+    
+    /*1280PX BREAKPOINT*/
+    @media (min-width:80em){
+    
+    .footer-arrow svg { height:90px; }
+    
+    }
