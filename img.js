@@ -31,5 +31,5 @@ function showSlides(num) {
 
   slideTimer = setTimeout(function () {
     showSlides(1);
-  }, 10000);
+  }, 5000);
 }
