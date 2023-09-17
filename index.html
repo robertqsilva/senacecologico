@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/css/fotter.css" />
     <link rel="stylesheet" href="./src/css/mobile.css" />
     <link rel="stylesheet" href="./src/css/grid.css">
+    <link rel="stylesheet" href="./img.css">
     <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
   </head>
 
@@ -104,21 +105,28 @@
         </section>
 
       
-        <div class="hero-image">
-          <div class="hero-text">
-            <h1>Os danos que o descarte inadequado de lixo pode causar!</h1>
-            <button class="bt-sm">Saiba mais</button>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="hero-image" style="background-image: url('./src/img/pexels-lucien-wanda-2827735.jpg');">
+              <div class="hero-text">
+                <h1>Os danos que o descarte inadequado de lixo pode causar!</h1>
+                <button class="bt-sm">Saiba mais</button>
+              </div>
+            </div>
           </div>
-        </div> 
-        <hr>
-        <div class="hero-image-2">
-          <div class="hero-text-2">
-            <h1>Soluções simples para o problema do descarte de lixo</h1>
-            <button class="bt-sm">Saiba mais</button>
+      
+          <div class="mySlides fade">
+            <div class="hero-image" style="background-image: url('./src/img/pexels-mumtahina-tanni-5355590.jpg');">
+              <div class="hero-text">
+                <h1>Soluções simples para o problema do descarte de lixo</h1>
+                <button class="bt-sm">Saiba mais</button>
+              </div>
+            </div>
           </div>
+      
+          <a class="prev" onclick="showSlides(-1)">&#10094;</a>
+          <a class="next" onclick="showSlides(1)">&#10095;</a>
         </div>
-  
-        
 
         <div class="footer-arrow">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -170,5 +178,6 @@
     
       </footer>
     <script src="./src/index.js"></script>
+    <script src="./img.js"></script>
   </body>
 </html>

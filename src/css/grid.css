@@ -1,4 +1,7 @@
 
+body, html{
+  height: 100%;
+}
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -43,7 +46,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
   }
   
   /* Place text in the middle of the image */
