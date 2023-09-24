@@ -5,7 +5,7 @@ const senhaCorreta = process.env.SENHA;
 function verificaSenha() {
   let senha = prompt("Informe a senha:");
 
-  if (senha === "123") {
+  if (senha === senhaCorreta) {
     alert("Senha Correta! Redirecionando...");
 
     window.location.href = "https://senacecologico.onrender.com/";
