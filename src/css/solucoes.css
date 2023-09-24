@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -7,17 +8,22 @@
 }
 
 body, html{
-	background:
-		url(../imagens/ruido.png),
-		linear-gradient(50deg, #ffffff);
-	background-attachment: fixed;
 	font-family: Helvetica, Arial, sans-serif;
   height: 100%;
 }
 
+.bt-nav{
+  background-color: transparent;
+  font-weight:normal;
+  border-radius: 5px;
+}
+
+.bt-nav:hover{
+  color: red;
+}
 
 a {
-  color: #fff;
+  color: #0c3819dd;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -43,7 +49,9 @@ nav {
   right: 0;
 }
 
-
+.a-difery{
+  color: #fff;
+}
 
 .nav-list {
   list-style: none;
@@ -63,19 +71,93 @@ nav {
 .mobile-menu div {
   width: 32px;
   height: 2px;
-  background: #fff;
+  background: #000000;
   margin: 8px;
   transition: 0.3s;
 }
 
 
 
+.container-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  height: 100%;
+  flex-direction: column;
+  transition: padding-top 0.1s;
+}
+
+.grid{
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1{
+  margin-bottom: 5%;
+  font-size: 35px;
+  color: #000000d4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+  margin-bottom: 5%;
+  color: #000000c9;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+}
+br{
+  margin-top: 5%;
+}
+.espaco{
+  border: none;
+  background-color: transparent;
+  height: 20px;
+}
+
+
+
+.img-solid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-solid img {
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+figure {
+  display: block;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3%;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.573);
+  font-family: cursive;
+}
+
+.h1-price{
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
 
 /*mobile*/
-@media (max-width: 829px){
+@media (max-width: 829px) {
   body {
     overflow-x: hidden;
   }
+
   .nav-list {
     position: absolute;
     top: 8vh;
@@ -88,25 +170,72 @@ nav {
     transition: transform 0.3s ease-in;
     border: none;
     font-size: 18px;
+    color: #000000;
   }
+
   .nav-list li {
     margin-left: 0;
     opacity: 0;
     border: none;
   }
+
   .mobile-menu {
     display: block;
   }
 
-  .logo{
+  .logo {
     font-size: 20px;
+  }
+
+  a {
+    color: #0c3819dd;
+    transition: color 0.3s;
+    font-weight: bold;
+  }
+
+  a:hover{
+   color: red;
+  }
+
+  .container-1 {
+    padding-top: 20%;
+  }
+  
+  .img-solid img{
+  border-radius: 4px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  h4{
+    font-size: 15px;
+  }
+  
+  .grid{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  
+  .img-text{
+    width: 100%;
+  }
+
+  .img-text1 {
+    width: 100%;
+  }
+
+  .h1-price{
+    font-size: 32px;
+    text-align: left;
   }
 
 }
 
 .nav-list.active {
   transform: translateX();
-  backdrop-filter:  blur(5px);
+  backdrop-filter: blur(0px);
 }
 
 @keyframes navLinkFade {
@@ -114,6 +243,7 @@ nav {
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -123,10 +253,11 @@ nav {
 
 /*desktop*/
 
-@media (max-width: 999px) and (min-width:830px){
+@media (max-width: 999px) and (min-width:830px) {
   body {
     overflow-x: hidden;
   }
+
   .nav-list {
     position: absolute;
     top: 8vh;
@@ -140,24 +271,43 @@ nav {
     border: none;
     font-size: 18px;
   }
+
   .nav-list li {
     margin-left: 0;
     opacity: 0;
     border: none;
   }
+
   .mobile-menu {
     display: block;
   }
 
-  .logo{
+  .logo {
     font-size: 20px;
+  }
+
+  a {
+    color: #056b49;
+  }
+  
+  .img-solid img{
+    border-radius: 5px;
+  }
+
+
+  .img-text {
+    width: 100%;
+  }
+
+  .img-text1 {
+    width: 100%;
   }
 
 }
 
 .nav-list.active {
   transform: translateX();
-  backdrop-filter:  blur(5px);
+  backdrop-filter: blur(2px);
 }
 
 @keyframes navLinkFade {
@@ -165,6 +315,7 @@ nav {
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);

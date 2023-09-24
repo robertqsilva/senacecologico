@@ -1,0 +1,426 @@
+main {
+    background: url("https://static.wixstatic.com/media/aa095b_52a5d851cdcd422bbf4c61023d2d6ed4~mv2.png/v1/fill/w_1040,h_763,al_c,q_90,enc_auto/aa095b_52a5d851cdcd422bbf4c61023d2d6ed4~mv2.png") no-repeat center center;
+    background-size: cover;
+    height: 140vh;
+   
+  }
+  
+  .text-main{
+    position: absolute;
+    top: 98%;
+    left: 25%;
+    right: 25%;
+    color: white;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .sub{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sub-tt{
+    margin-top: 0;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+  
+  }
+  
+  .text-main img{
+    width: 250px;
+  }
+
+
+  .lado1{
+    background-image: url(../img/quemsomos.webp);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo{
+    font-weight: bold;
+    color: #629530;
+    font-style: italic;
+    font-size: 77px;
+    font-family: 'Lato', sans-serif;
+    margin-top: -10%;
+    text-align: center;
+  }
+  .titulo, .titulo-sec2 {
+    padding: 21px;
+  }
+  
+  .svg{
+    margin-top: 0;
+    width: 150px;
+  }
+  
+  .titulo-sec2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  
+  }
+  
+  .alinhamento-tt{
+    width: 60%;
+  }
+  
+  .margin-grey{
+    background-color: rgb(21, 72, 72);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .conteiner img{
+    width: 100%;
+    display: block;
+    height: 100%;
+  }
+  
+  .lado-lado{
+    display: flex;
+  }
+  
+  .grid-container{
+    display: flex;
+  }
+  
+  .grid-color{
+    display: flex;
+  }
+  
+  .grid-c img{
+    width: 100%;
+  }
+  
+  /* ... Outros estilos ... */
+  
+  .grid-c {
+    text-align: center;
+    position: relative; /* Adicione isso para posicionar o texto sobre a imagem */
+  }
+  
+  .imagem-container {
+    position: relative;
+  }
+  
+  .imagem-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .texto-img {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 5px;
+    border-radius: 5px;
+    width: 85%;
+    font-family: 'Lato', sans-serif; 
+    font-size: 19px; 
+    color: #000;
+    height: auto;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto-img iframe{
+    border-radius: 10px;
+  
+  }
+  
+  
+  .titulo-jogos{
+    color: #fff;
+    font-size: 60px;
+  }
+  
+  
+  h3 {
+      font-size: 2em;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+  }
+  
+  .col-md-6 {
+      position: relative;
+    width: auto ;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  
+  .container {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .row {
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-between;
+      display: flex;
+  }
+  
+  
+  #servicos {
+      background: white;
+  }
+  
+  #servicos h3 {
+      color: #025825;
+    font-size: 2em;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      margin-top: 10px;
+  }
+  
+  #servicos h2 {
+      color: #025825;
+    font-size: 3em;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      margin-top: 10px;
+  }
+  
+  p {
+      text-align: justify;
+      font-size: 1.25em;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .ave-kill{
+    margin-bottom: 5%;
+  }
+
+  .bt-senha{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+
+
+
+  @media (max-width: 829px){
+    .text-main{
+      position: absolute;
+      top: 67%;
+      left: 20%;
+      right: 20%;
+      text-align: center;
+      font-size: 20px;
+      display: block;
+   
+    }
+  
+    .text-main img{
+      position: relative;
+      width: 120px;
+    margin-bottom: -6%;
+    }
+  
+    .sub{
+      font-size: 20px;
+    }
+  
+    main{
+      height: 100vh;
+    }
+  
+    .sub-tt{
+      font-size: 20px;
+    }
+  
+    .lado1{
+      width: 100%;
+    }
+  
+    .alinhamento-tt{
+      width: 97%;
+    }
+    
+    .titulo{
+      font-size: 42px;
+      text-align: center;
+      margin-top: 0;
+    }
+  
+    .svg{
+      margin-top: 0;
+      width: 130px;
+    }
+    
+    .rvg2{
+      width: 50px;
+    }
+  
+    .margin-grey{
+      height: 15%;
+    }
+  
+    .conteiner img{
+      width: 100%;
+      display: none;
+    }
+  
+    .grid-container{
+      display: none;
+    }
+    .grid-color{
+      flex-direction: column;
+    }
+    .grid-c{
+      height: auto;
+    }
+    .grid-c img{
+      height: auto;
+    }
+  
+    .row{
+      flex-direction: column;
+    }
+    .titulo-jogos{
+      font-size: 20px;
+    }
+  
+    .titulo-sec2{
+      font-size: 25px;
+    }
+  
+    .titulo-sec2{
+      margin-bottom: 250px;
+    }
+  
+  }
+
+
+
+
+
+
+  @media (max-width: 999px) and (min-width:830px){
+  
+    .text-main{
+      position: absolute;
+      top: 67%;
+      left: 20%;
+      right: 20%;
+      text-align: center;
+      font-size: 20px;
+      display: block;
+   
+    }
+  
+    .text-main img{
+      position: relative;
+      width: 150px;
+      margin-top: -20%;
+    }
+  
+    .sub{
+      font-size: 20px;
+    }
+
+    main{
+      height: 100vh;
+    }
+  
+    .sub-tt{
+      font-size: 30px;
+    }
+  
+    .lado1{
+      width: 100%;
+    }
+  
+    .alinhamento-tt{
+      width: 97%;
+    }
+    
+    .titulo{
+      font-size: 42px;
+      text-align: center;
+      margin-top: 0;
+    }
+  
+    .svg{
+      margin-top: 0;
+      width: 130px;
+    }
+    
+    .rvg2{
+      width: 50px;
+    }
+  
+    .margin-grey{
+      height: 15%;
+    }
+  
+    .conteiner img{
+      width: 100%;
+      display: none;
+    }
+  
+    .grid-container{
+      display: none;
+    }
+    .grid-color{
+      flex-direction: column;
+    }
+    .grid-c{
+      height: auto;
+    }
+    .grid-c img{
+      height: auto;
+    }
+  
+    .row{
+      flex-direction: column;
+    }
+    .titulo-jogos{
+      font-size: 20px;
+    }
+  
+    .titulo-sec2{
+      font-size: 25px;
+    }
+  
+    .titulo-sec2{
+      margin-bottom: 250px;
+    }
+  }
+
+  
