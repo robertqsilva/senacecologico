@@ -149,6 +149,16 @@ figcaption {
   font-size: 40px;
 }
 
+    .bt-senha {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      font-size: 1em;
+      cursor: pointer;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+    }
+
 
 
 
