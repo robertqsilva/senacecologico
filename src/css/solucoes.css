@@ -76,7 +76,10 @@ nav {
   transition: 0.3s;
 }
 
-
+.grid
+.title-center{
+  text-align: center;
+}
 
 .container-1{
   display: flex;
@@ -93,6 +96,7 @@ nav {
   margin-right: 15%;
   display: flex;
   flex-direction: column;
+  text-align: justify;
 
 }
 

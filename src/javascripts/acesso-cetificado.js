@@ -1,5 +1,6 @@
-const senhaCorreta = "senac82";
+require("dotenv").config();
 
+const senhaCorreta = process.env.SENHA;
 function verificaSenha() {
   let senha = prompt("Informe a senha:");
 

@@ -4,20 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background: 
-    linear-gradient(150deg, #87e1b0, #315e49);
+   background-color: #fff;
 }
-header{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-header h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-    font-weight: 900;
-    color: #fff;
+
+
+main{
+    padding-top: 9%;
 }
 .gallery-container{
     display: flex;
@@ -56,16 +48,6 @@ header h1{
     transform: scale(1.3);
 }
 
-.seta{
-    margin: 15px;
-}
 
 
-footer{
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-    font-style: italic;
-}
+
