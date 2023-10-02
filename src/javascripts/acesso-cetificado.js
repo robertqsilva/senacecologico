@@ -1,6 +1,5 @@
-require("dotenv").config();
+const senhaCorreta = "senac82";
 
-const senhaCorreta = process.env.SENHA;
 function verificaSenha() {
   let senha = prompt("Informe a senha:");
 
@@ -8,7 +7,7 @@ function verificaSenha() {
     alert("Senha Correta! Redirecionando...");
 
     window.location.href =
-      "https://i0.wp.com/techwek.com/wp-content/uploads/2021/01/imagens-imagem-ngracadas-para-whatsapp..jpg?w=1024&ssl=1";
+      "https://drive.google.com/drive/folders/1ou_64UiVbCwYg0_ilTh-QnejmysUcvhe?usp=";
   } else {
     alert("Senha Incorreta! Acesso negado.");
   }
